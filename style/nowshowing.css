@@ -1,0 +1,224 @@
+.center_del1nav-12
+{
+	height: 20px; 
+	/*background-color:#3168eb;*/
+	color:white;
+	height:35px;
+	display:flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: left;
+	order: 2;
+	width:100%;
+	/*background-color:inherit;*/
+	border: solid inherit;
+}
+
+.center1
+{
+	font-family: "Verdana", Geneva, sans-serif;
+	display:flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: center;
+	order: 3;
+	width:45%;
+	/*height:415px;*/
+	height:auto;
+	background-color:black;
+	border: solid #inherit;
+}
+
+.center_del_vertical_1-2
+{	
+	display:flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: left;
+	order: 4;
+	width:10%;
+	/*height:415px;*/
+	height:auto;
+	/*background-color:inherit;*/
+	border: solid #inherit;
+	
+}
+
+
+.center2
+{
+	display:flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: center;
+	order: 5;
+	width:45%;
+    /*height:394.5px;*/
+	height:auto;
+	background-color:black;
+	border: solid #inherit;
+}
+
+
+.center_del12-3
+{
+	height: 20px; 
+	/*background-color:#3168eb;*/
+	color:white;
+	height:35px;
+	display:flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: left;
+	order: 6;
+	width:100%;
+	/*background-color:inherit;*/
+	border: solid inherit;
+}
+
+.center3
+{
+	display:flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: center;
+	order: 7;
+	width:45%;
+    /*height:394.5px;*/
+	height:auto;
+	background-color:black;
+	border: solid #inherit;
+}
+
+.center_del_vertical_3-4
+{
+	display:flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: left;
+	order: 8;
+	width:10%;
+    /*height:394.5px;*/
+	height:auto;
+	/*background-color:inherit;*/
+	border: solid #inherit;
+}
+
+.center4
+{
+	display:flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: center;
+	order: 9;
+	width:45%;
+    /*height:394.5px;*/
+	height:auto;
+	background-color:black;
+	border: solid #inherit;
+}
+
+.center_del1-footer
+{
+	/*height: 20px; */
+	/*background-color:#3168eb;*/
+	color:white;
+	height:35px;
+	display:flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: left;
+	order: 10;
+	width:100%;
+	
+	border: solid inherit;
+}
+
+hr {
+    height: 0;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+
+
+.movie1
+{
+	display:table-cell;
+	/*width: 400px;*/
+	width:25%;
+	height: 570px;
+	/*margin: 2.5px;*/
+	/*border: 0.5px solid white;*/
+	
+}
+
+.img
+{
+	display:table-cell;
+	/*width: 385px;*/
+	width: 90%;
+	height: 500px;
+	/*border: 0.5px solid red;*/
+	color: white;
+}
+
+
+.img_h
+{
+	height: 100%;	
+}
+
+/*
+Reference:
+http://stackoverflow.com/questions/6195329/how-can-you-hide-the-arrow-that-is-displayed-by-default-on-the-html5-details-e
+ */
+
+summary::-webkit-details-marker 
+{
+  display: none
+}
+
+.delimiter1
+{
+	height: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    border-top:  solid black;
+}
+
+hr {
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    border-top:  solid #ddd;
+}
+
+.hr_top
+{
+    height: 1px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    border: 0;
+    border-top:  solid #ddd;
+}
+
+.hr_bottom
+{
+	height: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top:  solid #ddd;
+}
+
+
+.title
+{
+	text-align: left;
+	
+}

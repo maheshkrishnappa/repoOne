@@ -1,0 +1,279 @@
+body
+{
+	background-color:black;
+	margin:0;
+	padding:0;
+	min-width:400px;
+}
+
+header
+{
+	background-color:black;
+	color:#0000FF; 
+	height: 152px; 
+	/*width:1920px;*/
+	width:100%;
+	/*padding-left:377.5px;*/
+	
+}
+
+
+
+.img_header
+{
+	padding-top:25px;
+	height: 150px; 
+	width:350px;
+	align: left;
+}
+
+/*Navigation Styling_Start */
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} 
+
+li
+{
+	display:inline;
+	float:left;
+}
+li a 
+{
+	text-decoration: none;
+	color:white;
+    display: block;
+    padding: 8px;
+}
+
+nav 
+{
+	height: 35px; 
+	/*background-color:#3168eb;*/
+	background-color:rgba(52, 31, 181, 0.82);
+	color:white;
+	/*width:1920px;*/
+	width:100%;
+}
+
+nav li a:hover 
+{ 
+	color: black; 
+	background-color:white;
+}
+
+.active
+{
+	/*background-color:#3A3D40;*/
+	background-color:white;
+	color:black;
+}
+
+.delimiter
+{
+	/*background: linear-gradient(to bottom, #373737 15%,#727272 50%,#232323 85%);
+	background: black;*/
+	background: black;
+    height: 35px;
+	/*padding: 0px;*/
+   	width: 5px;
+}
+/*Navigation Styling_End */
+
+/* Navigation and Content/Article area division_Start */
+
+/*
+Reference:
+http://stackoverflow.com/questions/25311541/how-to-vertically-align-text-inside-a-flexbox
+*/
+.content
+{
+	font-family: "Verdana", Geneva, sans-serif;
+	width:100%;
+	display:flex;
+	overflow:auto;
+	/*background-color:#3A3D40;*/
+	/*height:789px; */
+	height:auto;
+	color: white;
+	text-align: center;
+}
+
+.left
+{
+	order: 1;
+	/*display:table-cell;*/
+	display:flex;
+	width:20%;
+    /*height:789px;*/
+	/*height:auto;*/
+    /*background-color:inherit;*/
+	border:  solid inherit;
+}
+
+.left_inner_content
+{
+	height:auto;
+}
+
+.center
+{
+	min-width:400px;
+	flex:1;
+	order: 2;
+	position: relative;
+	display:flex;
+	flex-flow: row wrap;
+    width:30%;
+    /*height:789px;*/
+	height:auto;
+	/*background-color:#3A3D40;*/
+	border: solid #inherit;
+}
+
+.content_nav
+{
+	height: 35px; 
+	background-color:#3168eb;
+	color:white;
+	width:100%;
+	display:flex;
+	color: white;
+	text-align: center;
+	flex-direction: column;
+	justify-content: left;
+	text-align: left;
+	order: 1;
+	height:35px;
+	border: solid #inherit;
+}
+
+.right
+{
+	order: 3;
+	/*display:table-cell;*/
+	display:flex;
+    width:20%;
+    /*height:789px;
+    background-color:inherit;*/
+	border:  solid inherit;
+}
+
+/*Navigation and Content/Article area division_End */
+
+hr 
+{
+    height: 0;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+a 
+{
+	text-decoration: none;
+	color:white;
+    display: block;
+    padding: 8px;
+}
+
+.header_content
+{
+	
+	width:100%;
+	display:flex;
+	/*overflow:auto;*/
+	/*background-color:#3A3D40;*/
+	height: 102px;
+	color: white;
+	text-align: left;
+}
+
+.header_left
+{
+	/*background-color:green;*/
+	order: 1;
+	/*display:table-cell;*/
+	display:flex;
+	width:20%;
+    height: 152px;
+	/*height:auto;*/
+    /*background-color:inherit;*/
+	border:  solid inherit;
+}
+
+.header_center
+{
+	min-width:600px;
+	flex:1;
+	order: 2;
+	position: relative;
+	display:flex;
+	flex-flow: row wrap;
+    width:30%;
+    /*height:789px;*/
+	height:152px;
+	/*background-color:#3A3D40;*/
+	border: solid #inherit;
+}
+
+.center_flex1
+{
+	order: 3;
+	min-width:400px;
+	position: relative;
+	display:flex;
+	width:25%;
+    height: 152px;
+	/*background-color:blue;*/
+	border: solid #inherit;
+	
+}
+
+
+.header_right
+{
+	
+	order: 4;
+	/*display:table-cell;*/
+	display:flex;
+    width:20%;
+    height: 152px;
+    /*background-color:green;*/
+	border:  solid inherit;
+}
+
+.img_header2
+{
+	vertical-align:top;
+	height: 150px; 
+	width:150px;	
+}
+
+.delimiter_footer
+{
+	height: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top:  solid black;
+}
+
+/*
+Reference:
+http://www.cssgirl.com/articles/2011/05/29/how-to-anchor-the-footer-to-bottom-of-page-or-header-to-top/
+*/
+footer
+{
+	text-align:center;
+	color:white; 
+	height: 92px;
+	/*background-color:rgba(2, 12, 80, 0.82);*/
+	background-color:black;
+	width:100%;
+	bottom:0;
+}

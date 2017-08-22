@@ -1,0 +1,30 @@
+{
+    "cart": [
+        {
+            "movie": "AC",
+            "day": "Wednesday",
+            "time": "9pm",
+            "seats": {
+                "SA": "3"
+            },
+            "total": "54",
+            "submit": "Add to Cart",
+            "subtotal": 54,
+            "resrv": [
+                {
+                    "title": "London Has Fallen",
+                    "price": 18,
+                    "Quantity": "3",
+                    "Ticket Type": "Standard Adult",
+                    "cost": 54
+                }
+            ]
+        },
+        {
+            "cname": "Customer Name",
+            "email": "customer.name@gmail.com",
+            "pnumber": "0426587924",
+            "customer": "Send"
+        }
+    ]
+}

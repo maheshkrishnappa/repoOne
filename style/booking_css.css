@@ -1,0 +1,208 @@
+.center_del1nav-12
+{
+	height: 20px; 
+	/*background-color:#3168eb;*/
+	color:white;
+	height:35px;
+	display:flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: left;
+	order: 2;
+	width:100%;
+	/*background-color:inherit;*/
+	border: solid inherit;
+}
+
+.center1
+{
+	/*min-width:350px;*/
+	display:flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: center;
+	order: 3;
+	width:100%;
+	/*height:415px;*/
+	height:auto;
+	background-color:black;
+	border: solid #inherit;
+}
+
+.center_del_1
+{
+	/*background-color:#3168eb;*/
+	color:white;
+	height:35px;
+	display:block;
+	
+	
+	
+	width:100%;
+	border: solid inherit;
+}
+
+
+.center_del1-footer
+{
+	/*height: 20px; */
+	/*background-color:#3168eb;*/
+	color:white;
+	height:35px;
+	display:flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: left;
+	order: 5;
+	width:100%;
+	
+	border: solid inherit;
+}
+
+.img_h
+{
+	display:inline-block;
+	height:75%;
+	width: 100%;
+}
+hr {
+    height: 0;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+.delimiter1
+{
+	height: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0;
+    border-top:  solid black;
+}
+
+.fisrt_line
+{
+	color:blue;
+	text-align:center;
+}
+
+/*
+.section_1
+{
+	color:blue;
+}
+
+
+select
+{
+	padding:10px;
+	margin:10px;
+	align:right;
+}
+
+*/
+.option_box
+{
+	margin: 20px;
+	padding:20px;
+}
+
+/*
+.option_box_day
+{
+	margin: 49px;
+	padding:49px;
+}
+
+.option_box_time
+{
+	margin: 45px;
+	padding:45px;
+}
+
+*/
+
+
+tr, th, td
+{
+	
+	padding:20px;
+	margin:20px;
+}
+
+.table1
+{
+	margin-left: auto;
+	margin-right: auto;
+	
+	/*from confirmation css*/
+	width:50%;
+	/*border-style:solid;*/
+	/*float: left;*/
+    border-collapse:separate;
+    /*empty-cells:hide;*/
+}
+
+input
+{
+	width:50%;
+	height: 25px;
+}
+
+select
+{
+	width:50%;
+	height: 25px;
+	margin-top:5px;
+}
+
+input[type="number"] 
+{
+   width:75px;
+}
+
+textarea
+{
+	width:50%;
+	height: 100px;
+	text-align: left;
+}
+
+.form
+{
+	text-align:center;
+	/*border: 2.5px solid white;*/
+	
+}
+
+.book
+{
+	min-width:100px;
+	width:10%;
+	height: 30px;
+	background-color:black;
+	color:white;
+}
+
+.text
+{
+	text-align:center;
+}
+
+label
+{
+	text-align:left;
+}
+
+.required
+{
+	color:red;
+}
+
+/*Reference: http://stackoverflow.com/questions/10040842/add-border-bottom-to-table-row-tr*/
+tr.border_top td 
+{
+  border-top:2pt solid white;
+}
